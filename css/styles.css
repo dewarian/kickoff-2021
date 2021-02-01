@@ -115,6 +115,14 @@ body {
 .card .bottom .desc {
   color: #1d252c;
 }
+
+.desc-under {
+  margin-top: 10px;
+
+  font-weight: 500;
+  display: block;
+}
+
 .card .bottom .buttons {
   margin-top: 2rem;
   display: flex;
