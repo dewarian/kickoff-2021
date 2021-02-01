@@ -1,14 +1,47 @@
 :root {
   --primary:#FFF;
-  --secondary:#000;
+  --secondary:#101419;
 }
 
 * {
   box-sizing:border-box;
   scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 
 html {
   background: var(--secondary);
-  color: var(--primary);
+  color: var(--secondary);
+}
+
+#container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+  background: #ffcc00;
+  border-radius: 15px;
+
+  padding: 2em;
+
+  display: flex;
+  align-items: center;
+}
+
+.card img {
+  margin-right: 2em;
+  width: 40%;
+}
+
+.info h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 2em;
+  text-transform: uppercase;
 }
