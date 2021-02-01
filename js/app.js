@@ -8,7 +8,7 @@ const putData =   {
   "name": "Nathan",
   "prefix": "He",
   "surname": "Bommezijn",
-  "mugshot": "https://avatars.githubusercontent.com/u/13199349?s=460&u=0c014f403524b32404a81ca04b6b8a1ad2b841e9&v=4",
+  "mugshot": "https://i.ibb.co/ZVdRwGv/IMG-0541.jpg",
   "githubHandle": "dewarian",
   "other": {"js":"6", "html":"6", "css": "6", "info":"Aspiring developer", "website":"bommezijn.me"}
 }
