@@ -10,10 +10,27 @@ const pic = {
 }
 
 
+const changeData = {
+  "teamId": 2,
+  "name": "Nathan",
+  "prefix": "Legendary",
+  "surname": "Bommezijn",
+
+  "mugshot": "https://i.ibb.co/ZVdRwGv/IMG-0541.jpg",
+  "githubHandle": "dewarian",
+  "other": {
+    "js": 6,
+    "html": 6,
+    "css": 6,
+    "title": "Aspiring Web Dev",
+    "info": "Aspiring web developer currently in it's third year of CMD.",
+    "website": "bommezijn.me"
+  }
+}
 // postData(`${personal}/squads/1/teams/2/members`, putData).then(data => {console.log('post', data) });
 // deleteUser(`${url}`, 18).then(data => {console.log('post', data)});
-// updateUser(`${url}/squads/1/teams/2/members/18`, changeData);
-getData(`${personal}/squads/1/teams/2/members/18`)
+updateUser(`${url}/squads/1/teams/2/members/14`, changeData);
+getData(`${url}/squads/1/teams/2/members/`)
 
 async function getData(url) {
   return await fetch(url).then(response => response.json()).then(data => console.log(data))
@@ -56,23 +73,6 @@ async function updateUser(url, data) {
 
 }
 
-const changeData = {
-  "teamId": 2,
-  "name": "Nathan",
-  "prefix": "Legendary",
-  "surname": "Bommezijn",
-
-  "mugshot": "https://i.ibb.co/ZVdRwGv/IMG-0541.jpg",
-  "githubHandle": "dewarian",
-  "other": {
-    "js": 6,
-    "html": 6,
-    "css": 6,
-    "title": "Aspiring Web Dev",
-    "info": "Aspiring web developer currently in it's third year of CMD.",
-    "website": "bommezijn.me"
-  }
-}
 
 // // GET REQUEST
 // let me = {};
